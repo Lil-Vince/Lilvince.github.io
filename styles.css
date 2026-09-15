@@ -1,0 +1,94 @@
+body {
+  padding: 25px;
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+@font-face {
+  font-family: "mojangles";
+  src: url(fonts/mojangles.woff);
+}
+
+* {
+  font-family: "mojangles";
+}
+
+body {
+  background-image: url('images/backgrounds/background.home.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 90%;
+  background-position: 100% 100%;
+}
+
+header {
+  background-image: url('images/backgrounds/background.head.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  position: fixed;
+  width: 200vh;
+  height: 9.5vh;
+  top: 3.5;
+  left: 0;
+  display: inline-block
+}
+
+button {
+  border: solid darkblue;
+  color: rgb(0, 0, 0);
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.button1 {
+  border: 1px solid darkblue;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  padding: 36px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  top: -5;
+}
+
+.button1:hover {
+  background-color: rgb(0, 153, 18);
+  color: rgb(0, 188, 69);
+}
+
+.communitylinks {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.communitybutton {
+  background-color: gray;
+  border: 0.2 black;
+  padding: 10 40;
+  font-size: small;
+}
